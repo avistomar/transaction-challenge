@@ -1,0 +1,13 @@
+### Send POST request with json body
+POST http://localhost:8080/transaction
+Content-Type: application/json
+
+{
+  "toAccount": "123423543532",
+  "description": "hello ",
+  "amount": "100.11"
+}
+
+### Send POST request with json body
+GET http://localhost:8080/transaction
+Content-Type: application/json
