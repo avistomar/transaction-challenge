@@ -7,6 +7,4 @@ import org.springframework.boot.test.context.SpringBootTest
 @SpringBootTest
 class TransactionApplicationTest {
 
-    @Test
-    fun test(){}
 }
